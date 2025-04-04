@@ -4,5 +4,5 @@ all: matrix.exe
 
 matrix.exe: main.cpp matrix.cpp
 	@$(CXX) main.cpp matrix.cpp -o matrix.exe
-	@./matrix.exe input.txt
+	@./matrix.exe
 	@rm -f matrix.exe
