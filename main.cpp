@@ -91,7 +91,7 @@ int main(int argc, char *argv[]) {
         product.print_matrix();
         // find diagonal sums; main & secondary
         cout << "\n Main diagonal sum: " << m1.sum_diagonal_major() << endl;
-        cout << "\nSecondary diagonal: " << m1.sum_diagonal_minor() << endl;
+        cout << "\nSecondary diagonal sum: " << m1.sum_diagonal_minor() << endl;
         // swap rows 
         cout << "\nSwap rows 0 and 1: " << endl;
         Matrix swapRows = m1;
